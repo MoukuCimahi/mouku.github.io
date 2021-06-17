@@ -40,6 +40,31 @@
         .text-race{
             font-family: 'Racing Sans One' !important;
         }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+        height: 100px;
+        width: 100px;
+        outline: black;
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        border: 0;
+        background-image: none;
+        }
+
+        .carousel-control-next-icon:after
+        {
+        content: '>';
+        margin-left: 20px;
+        font-size: 55px;
+        color: #F24F88;
+        }
+
+        .carousel-control-prev-icon:after {
+        content: '<';
+        margin-left: -20px;
+        font-size: 55px;
+        color: #F24F88;
+        }        
     </style>
     <title>Mouku Store</title>
   </head>
@@ -91,195 +116,280 @@
         </div>
     </div>
 
+
+
+    <!-- CONTENT START -->
     <div class="container">
         <div class="row py-3">
             <div class="col-12 text-center">
                 <h1 class="text-race text-info">BAG</h1>
             </div>
-            <div class="col-12 text-race text-center bg-info text-white py-5 my-5" style="border-radius: 48px;">
+            <div class="col-12 text-race text-center bg-info text-white py-3 my-5" style="border-radius: 24px;">
                 <h3>Jessilyn Bag</h3>
                 <h5>IDR 40k</h5>
                 <span>(27 x 9 x 21cm)</span>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jessilyn8 (1) 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jessilyn Bag Pink Fanta</h5>
+        </div>
+        <div class="row">    
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jessylin" item-type="pink" item-name="Jessilyn Bag Pink Fanta">
+                <img src="./products/jessylin/pink_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jessilyn Bag Pink Fanta</span>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jessilyn4 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jessilyn Bag Orange</h5>
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jessylin" item-type="orange" item-name="Jessilyn Bag Orange">
+                <img src="./products/jessylin/orange_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jessilyn Bag Orange</span>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jessilyn7 (1) 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jessilyn Bag White</h5>
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jessylin" item-type="white" item-name="Jessilyn Bag White">
+                <img src="./products/jessylin/white_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jessilyn Bag White</span>
             </div>
-            <div class="col-4 offset-2 mt-3 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jessilyn2 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jessilyn Bag Black</h5>                
+        </div>
+        <div class="row mt-5">
+            <div class="col-4 offset-2 d-flex justify-content-center align-items-center flex-column item" item-category="jessylin" item-type="black" item-name="Jessilyn Bag Black">
+                <img src="./products/jessylin/black_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jessilyn Bag Black</span>
             </div>
-            <div class="col-4 mt-3 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/14 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jessilyn Bag Blue</h5>                
-            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jessylin" item-type="blue" item-name="Jessilyn Bag Blue">
+                <img src="./products/jessylin/blue_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jessilyn Bag Blue</span>
+            </div>            
         </div>
     </div>
     
-    <div class="container">
+
+    <div class="container my-5">
         <div class="row py-3">
-            <div class="col-12 text-race text-center bg-info text-white py-5 my-5" style="border-radius: 48px;">
+            <div class="col-12 text-race text-center bg-info text-white py-3 my-5" style="border-radius: 24px;">
                 <h3>Jolly Bag</h3>
                 <h5>IDR 24k</h5>
-                <span>(33 x 10 x 15cm)</span>
+                <span>(23 x 10 x 15cm)</span>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jolly2 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jolly Bag Pink Fanta</h5>
+        </div>
+        <div class="row">    
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jolly" item-type="pink" item-name="Jolly Bag Pink Fanta">
+                <img src="./products/jolly/pink_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jolly Bag Pink Fanta</span>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jolly6 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jolly Bag Sky Blue</h5>
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jolly" item-type="blue" item-name="Jolly Bag Sky Blue">
+                <img src="./products/jolly/blue_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jolly Bag Sky Blue</span>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jollybag7 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jolly Bag Brown</h5>
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jolly" item-type="brown" item-name="Jolly Bag Brown">
+                <img src="./products/jolly/brown_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jolly Bag Brown</span>
             </div>
         </div>
     </div>
     
-    <div class="container">
+
+    <div class="container my-5">
         <div class="row py-3">
-            <div class="col-12 text-race text-center bg-info text-white py-5 my-5" style="border-radius: 48px;">
+            <div class="col-12 text-race text-center bg-info text-white py-3 my-5" style="border-radius: 24px;">
                 <h3>Jossy Bag</h3>
                 <h5>IDR 46k</h5>
                 <span>(17.8 x 5.8 x 12cm)</span>
             </div>
-            <div class="col-4 offset-2 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jossy3 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jossy Bag Green</h5>
+        </div>
+        <div class="row">
+            <div class="col-4 offset-2 d-flex justify-content-center align-items-center flex-column item" item-category="jossy" item-type="green" item-name="Jossy Bag Green">
+                <img src="./products/jossy/green_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jossy Bag Green</span>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jossy5 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jossy Bag Pink</h5>
-            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jossy" item-type="pink" item-name="Jossy Bag Pink">
+                <img src="./products/jossy/pink_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jossy Bag Pink</span>
+            </div>            
         </div>
     </div>
     
-    <div class="container">
+
+    <div class="container my-5">
         <div class="row py-3">
-            <div class="col-12 text-race text-center bg-info text-white py-5 my-5" style="border-radius: 48px;">
+            <div class="col-12 text-race text-center bg-info text-white py-3 my-5" style="border-radius: 24px;">
                 <h3>Jeany Bag</h3>
                 <h5>IDR 36k</h5>
                 <span>(20 x 10 x 18cm)</span>
             </div>
-            <div class="col-4 offset-2 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/16 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jeany Bag Tosca</h5>
+        </div>
+        <div class="row">
+            <div class="col-4 offset-2 d-flex justify-content-center align-items-center flex-column item" item-category="jeany" item-type="turquoise" item-name="Jeany Bag Turquoise">
+                <img src="./products/jeany/turquoise_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jeany Bag Turquoise</span>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jeanybag3 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jeany Bag Yellow</h5>
-            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jeany" item-type="yellow" item-name="Jeany Bag Yellow">
+                <img src="./products/jeany/yellow_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jeany Bag Yellow</span>
+            </div>            
         </div>
     </div>
     
-    <div class="container">
+
+    <div class="container my-5">
         <div class="row py-3">
-            <div class="col-12 text-race text-center bg-info text-white py-5 my-5" style="border-radius: 48px;">
+            <div class="col-12 text-race text-center bg-info text-white py-3 my-5" style="border-radius: 24px;">
                 <h3>Jill Bag</h3>
                 <h5>IDR 46k</h5>
                 <span>(27 x 12.5 x 12.5cm)</span>
             </div>
-            <div class="col-4 offset-2 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/P1790078 (2) 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jill Bag Pink</h5>
+        </div>
+        <div class="row">
+            <div class="col-4 offset-2 d-flex justify-content-center align-items-center flex-column item" item-category="jill" item-type="pink" item-name="Jill Bag Pink">
+                <img src="./products/jill/pink_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jill Bag Pink</span>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jill1 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jill Bag Tosca</h5>
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jill" item-type="turquoise" item-name="Jill Bag Turquoise">
+                <img src="./products/jill/turquoise_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jill Bag Turquoise</span>
             </div>
         </div>
     </div>
 
+
+
     <div class="container">
-        <div class="row py-3">
-            <div class="col-4 offset-1 text-race text-center bg-info text-white py-5 my-5 justify-content-center" style="width: 80%; border-radius: 48px;">
+        <div class="row justify-content-start">
+            <div class="col-4 offset-1 text-race text-center bg-info text-white py-3 my-5" style="border-radius: 24px;">
                 <h3>Joulee</h3>
                 <h5>IDR 45k</h5>
                 <span>(19-23 x 9 x 15cm)</span>
             </div>
-            <div class="col-4 offset-2 text-race text-center bg-info text-white py-5 my-5" style="width: 80%; border-radius: 48px;">
+            <div class="col-4 offset-2 text-race text-center bg-info text-white py-3 my-5" style="border-radius: 24px;">
                 <h3>Jessy Bag</h3>
                 <h5>IDR 16k</h5>
                 <span>(22 x 7 x 16cm)</span>
             </div>
-            <div class="col-4 offset-1 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/joulee3 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Joulee</h5>
+        </div>
+        <div class="row">
+            <div class="col-4 offset-1 d-flex justify-content-center align-items-center flex-column item" item-category="joulee" item-type="joulee" item-name="Joulee">
+                <img src="./products/joulee/joulee_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Joulee</span>
             </div>
-            <div class="col-4 offset-2 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jill1 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jessy Bag</h5>
+            <div class="col-4 offset-2 d-flex justify-content-center align-items-center flex-column item" item-category="jessy" item-type="jessy" item-name="Jessy Bag">
+                <img src="./products/jessy/jessy_1.png"rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jessy Bag</span>
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="row py-3">
-            <div class="justify-content-center col-4 offset-4 text-race text-center bg-info text-white py-5 my-5 justify-content-center" style="width: 80%; border-radius: 48px;">
+        <div class="row">
+            <div class="col-4 offset-4 text-race text-center bg-info text-white py-3 my-5" style="border-radius: 24px;">
                 <h3>Jossy Pink</h3>
                 <h5>IDR 56k</h5>
                 <span>(21.5 x 9 x 16cm)</span>
             </div>
-            <div class="col-4 justify-content-center offset-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jossypink3 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jossy Pink</h5>
+            <div class="col-4 offset-4 d-flex justify-content-center align-items-center flex-column item" item-category="jossy_pink" item-type="jossypink" item-name="Jossy Pink">
+                <img src="./products/jossy_pink/jossypink_1.png" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jossy Pink</span>                
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row py-5 my-5">
+
+
+    <div class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <center>
+                                            <img src="" alt="" class="img-1" class="d-block" style="width: 80%;">
+                                        </center>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <center>
+                                            <img src="" alt="" class="img-2" class="d-block" style="width: 80%;">
+                                        </center>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <center>
+                                            <img src="" alt="" class="img-3" class="d-block" style="width: 80%;">
+                                        </center>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container mt-5 py-5">
+        <div class="row py-3">
             <div class="col-12 text-center">
                 <h1 class="text-race text-info">Pocket</h1>
             </div>
-            <div class="col-12 text-race text-center bg-info text-white py-5 my-5" style="border-radius: 48px;">
+            <div class="col-12 text-race text-center bg-info text-white py-3 my-3" style="border-radius: 24px;">
                 <h3>Jelly Card Pocket</h3>
                 <h5>IDR 9k</h5>
                 <span>(9.5 x 21.5cm)</span>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/dompet3 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jelly Card Pocket Green</h5>
+        </div>
+        <div class="row">    
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jellycard" item-type="green" item-name="Jelly Card Pocket Green">
+                <img src="./products/jellycard/green_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jelly Card Pocket Green</span>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/dompet5 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jelly Card Pocket Pink</h5>
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jellycard" item-type="pink" item-name="Jelly Card Pocket Pink">
+                <img src="./products/jellycard/pink_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jelly Card Pocket Pink</span>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/dompet9 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jelly Card Pocket White</h5>
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jellycard" item-type="white" item-name="Jelly Card Pocket White">
+                <img src="./products/jellycard/white_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jelly Card Pocket White</span>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row py-5 my-5">
-            <div class="col-12 text-race text-center bg-info text-white py-5 my-5" style="border-radius: 48px;">
+
+    <div class="container my-5">
+        <div class="row py-3">
+            <div class="col-12 text-race text-center bg-info text-white py-3 my-5" style="border-radius: 24px;">
                 <h3>Jelly Coin Pocket</h3>
                 <h5>IDR 9k</h5>
                 <span>(20 x 11.5cm)</span>
             </div>
-            <div class="col-4 offset-1 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jelly4 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jelly Coin Pocket Pink</h5>
+        </div>
+        <div class="row">
+            <div class="col-4 offset-2 d-flex justify-content-center align-items-center flex-column item" item-category="jellycoin" item-type="pink" item-name="Jelly Coin Pocket Pink">
+                <img src="./products/jellycoin/pink_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jelly Coin Pocket Pink</span>
             </div>
-            <div class="col-4 offset-2 d-flex justify-content-center align-items-center flex-column">
-                <img src="./img/jelly6 1.png" alt="" style="width: 80%;">
-                <h5 class="text-info mt-3">Jelly Coin Pocket Blue</h5>
+            <div class="col-4 d-flex justify-content-center align-items-center flex-column item" item-category="jellycoin" item-type="blue" item-name="Jelly Coin Pocket Blue">
+                <img src="./products/jellycoin/blue_1.png" alt="" class="rounded" style="width: 80%;">
+                <span class="text-info mt-3 font-weight-bolder">Jelly Coin Pocket Blue</span>
             </div>
         </div>
     </div>
 
+
+    <!-- FOOTER -->
     <div class="footer bg-primary mt-5">
         <div class="container py-3">
             <div class="row">
@@ -320,8 +430,19 @@
     <footer class="text-center py-2">
         &copy; Copyright. 2021. Mouku
     </footer>
+
+
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script>
+        $('.item').click(function(){
+            $('.modal').modal('toggle')
+            $('.modal-title').text($(this).attr('item-name'))
+            $('.img-1').attr('src', './products/'+$(this).attr('item-category')+'/'+$(this).attr('item-type')+'_1.png')
+            $('.img-2').attr('src', './products/'+$(this).attr('item-category')+'/'+$(this).attr('item-type')+'_2.png')
+            $('.img-3').attr('src', './products/'+$(this).attr('item-category')+'/'+$(this).attr('item-type')+'_3.png')
+        })
+    </script>
   </body>
 </html>
